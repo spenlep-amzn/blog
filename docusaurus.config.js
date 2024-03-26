@@ -16,12 +16,13 @@ const config = {
   url: 'https://spencerlepine.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'spencerlepine', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  organizationName: 'spenlep-amzn', // Usually your GitHub org/user name.
+  projectName: 'spenlep-amzn.github.io', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -102,6 +103,36 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata: [
+        {
+          property: 'og:title',
+          content: 'Spencer Lepine | Full Stack Developer',
+        },
+        {
+          property: 'og:image',
+          content: 'https://spencerlepine.github.io/images/thumbnail.png',
+        },
+        {
+          property: 'og:description',
+          content: 'Website of Spencer Lepine, a full stack developer.',
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          name: 'twitter:title',
+          content: 'Spencer Lepine | Full Stack Developer',
+        },
+        {
+          name: 'twitter:image',
+          content: 'https://spencerlepine.github.io/images/thumbnail.png',
+        },
+        {
+          name: 'twitter:description',
+          content: 'Website of Spencer Lepine, a full stack developer.',
+        },
+      ],
     }),
 };
 
