@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://spencerlepine.com',
+  url: 'https://spenlep-amzn.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/blog',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'spenlep-amzn', // Usually your GitHub org/user name.
-  projectName: 'spenlep-amzn.github.io', // Usually your repo name.
+  projectName: 'blog', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
